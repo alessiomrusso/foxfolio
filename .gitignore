@@ -1,0 +1,23 @@
+# Ignore credentials file
+db_credentials.ini
+
+# Python-related ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+ENV/
+env/
+venv.bak/
+env.bak/
+
+# Other common directories and files
+*.log
+*.db
+.DS_Store
+Thumbs.db
